@@ -1,0 +1,6 @@
+services:
+  freebayes:
+    build: .
+    volumes:
+      - ./ref:/freebayes/ref
+      - ./bam:/freebayes/bam
